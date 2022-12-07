@@ -20,6 +20,7 @@ exports.handler = async (event) => {
         ${featured.storiesFeed[2].title} by ${featured.storiesFeed[2].author.username}
         https://hashnode.com/featured
         `;
+        await sendMessage(message.chat.id, reply || "No posts found!");
         break;
       default:
         await sendMessage(message.chat.id, "I don't understand that command.");
