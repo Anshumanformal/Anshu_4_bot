@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/Anshumanformal/Anshu_4_bot/issues"
   },
-  "homepage": "https://github.com/Anshumanformal/Anshu_4_bot#readme"
+  "homepage": "https://github.com/Anshumanformal/Anshu_4_bot#readme",
+  "dependencies": {
+    "axios": "^1.2.1",
+    "dotenv": "^16.0.3"
+  }
 }
